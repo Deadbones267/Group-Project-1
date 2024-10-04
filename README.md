@@ -1,20 +1,6 @@
 # Group-Project-1
+
 This project explores the relationships between weather and mental health prior to the covid 19 pandemic,and how energy needs changed due to the pandemic, and those relationships after, how they differ. our data set is from various states in the united states.
-
-Project Proposal
-Before you start writing any code, your group should outline the scope and purpose of your project. This will help provide direction and safeguard against scope creep (the tendency for projects to become more complex after work begins).
-
-The proposal is essentially a brief summary of your interests and intent. Be sure to include the following details:
-
-The kind of data you’d like to work with and the field you’re interested in (finance, healthcare surveys, etc.);
-
-The questions you’ll ask of the data; and
-
-Possible source for the data.
-
-Use the following example for guidance:
-
-The aim of our project is to uncover patterns in credit card fraud. We’ll examine relationships between transaction types and location, purchase prices and times of day, purchase trends over the course of a year, and other related relationships derived from the data.
 
 PROJECT PROPOSAL
 We would like to work with healthcare/climate/energy data 
@@ -32,6 +18,21 @@ For energy data
 
 For mental health data
 
+---
+**Example Proposal:**
 
+Project Proposal
+Before you start writing any code, your group should outline the scope and purpose of your project. This will help provide direction and safeguard against scope creep (the tendency for projects to become more complex after work begins).
 
+The proposal is essentially a brief summary of your interests and intent. Be sure to include the following details:
+
+The kind of data you’d like to work with and the field you’re interested in (finance, healthcare surveys, etc.);
+
+The questions you’ll ask of the data; and
+
+Possible source for the data.
+
+Use the following example for guidance:
+
+The aim of our project is to uncover patterns in credit card fraud. We’ll examine relationships between transaction types and location, purchase prices and times of day, purchase trends over the course of a year, and other related relationships derived from the data.
 
