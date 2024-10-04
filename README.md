@@ -31,5 +31,3 @@ For Weather:
 For Electricity:
   - EIA Open Data API: https://www.eia.gov/opendata/browser/
   - Electricity Maps API: https://static.electricitymaps.com/api/docs/index.html
-
-
