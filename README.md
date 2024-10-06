@@ -1,6 +1,4 @@
-=======
 # Analyzing Energy Consumption, Cost Efficiency, and Resource Utilization in U.S. States Based on Weather and Climate Impacts
->>>>>>> 204dfc0a23353c33a7cb5f571ac687e20b47555f
 
 ## PROJECT STATEMENT:
 Understanding the effectiveness and efficiency of various energy sources across different U.S. regions is crucial for optimizing energy policies and consumption patterns. Weather, climate, and regional supply and demand dynamics significantly influence energy costs and availability. This project aims to analyze energy consumption patterns, costs, and resource utilization across U.S. states and regions, with a particular focus on how weather and climate affect energy efficiency.
