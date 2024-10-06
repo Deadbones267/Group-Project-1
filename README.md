@@ -1,9 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-JD# Group-Project-1
-=======
-# Group-Project-1
-This project explores the relationships between weather and mental health prior to the covid 19 pandemic,and how energy needs changed due to the pandemic , and thouse relationships after, how they differ. our data set is from varoiuse states in the united states.
 =======
 # Analyzing Energy Consumption, Cost Efficiency, and Resource Utilization in U.S. States Based on Weather and Climate Impacts
 >>>>>>> 204dfc0a23353c33a7cb5f571ac687e20b47555f
