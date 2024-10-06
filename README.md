@@ -45,7 +45,8 @@ Data: Plot this for different U.S. states or regions over a year to show how tem
 Insights: This graph can reveal how temperature extremes (hot summers, cold winters) drive higher energy consumption, particularly for heating and cooling.
 
 
-2. Renewable Energy Generation vs. Wind Speed/Solar Radiation
+**_2. Renewable Energy Generation vs. Wind Speed/Solar Radiation_**
+
 Graph Type: Scatter plot or bubble chart
 X-Axis: Wind speed (m/s) or solar radiation (W/m²)
 Y-Axis: Renewable energy generation (MWh)
@@ -54,7 +55,8 @@ Data: Use hourly or daily data from regions with significant wind or solar gener
 Insights: This graph highlights the efficiency of renewable energy production as a function of local weather conditions, showing the correlation between natural resources and energy output.
 
 
-3. Energy Cost vs. Climate Events (Heatwaves, Cold Snaps, Hurricanes)
+**_3. Energy Cost vs. Climate Events (Heatwaves, Cold Snaps, Hurricanes)_**
+
 Graph Type: Bar graph or time series plot
 X-Axis: Timeline (years/months)
 Y-Axis: Energy cost ($ per MWh)
@@ -63,7 +65,8 @@ Data: Use cost data before, during, and after major climate events.
 Insights: This graph helps show how extreme weather events can cause spikes in energy costs due to increased demand or infrastructure damage.
 
 
-4. Carbon Emissions from Energy Sources vs. Average Annual Temperature
+**_4. Carbon Emissions from Energy Sources vs. Average Annual Temperature_**
+
 Graph Type: Line or stacked bar graph
 X-Axis: Average annual temperature (°F or °C)
 Y-Axis: Carbon emissions (metric tons CO₂)
@@ -71,7 +74,8 @@ Data: Break down emissions by energy source (coal, natural gas, renewables) for 
 Insights: This can demonstrate how regions with higher temperatures or climate variability contribute to carbon emissions, and how the energy mix influences those emissions.
 
 
-5. Energy Production vs. Precipitation Levels
+**_5. Energy Production vs. Precipitation Levels_**
+
 Graph Type: Dual-axis line graph
 X-Axis: Time (months or years)
 Y-Axis (Left): Energy production from hydropower (MWh)
@@ -80,7 +84,8 @@ Data: Plot energy production in regions with significant hydropower plants, like
 Insights: This graph could highlight how rainfall variability affects hydropower generation and how water resources impact energy availability.
 
 
-6. Energy Consumption Growth vs. Climate Change Indicators (Temperature Rise, CO₂ Levels)
+**_6. Energy Consumption Growth vs. Climate Change Indicators (Temperature Rise, CO₂ Levels)_**
+
 Graph Type: Line graph or area chart
 X-Axis: Time (years or decades)
 Y-Axis (Left): Total energy consumption (MWh)
