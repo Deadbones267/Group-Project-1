@@ -28,12 +28,10 @@ Understanding the effectiveness and efficiency of various energy sources across 
 For Weather:
   - OpenWeather API: https://openweathermap.org/api
 
- d0929575981ede611131aa603824e786816417c9
 
 For Electricity:
   - EIA Open Data API: https://www.eia.gov/opendata/browser/
   - Electricity Maps API: https://static.electricitymaps.com/api/docs/index.html
- 204dfc0a23353c33a7cb5f571ac687e20b47555f
 
 
 ## Visualization goals:
