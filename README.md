@@ -36,7 +36,7 @@ For Electricity:
 
 ## Visualization goals:
 
-1. Electricity Consumption vs. Temperature by Region
+**_1. Electricity Consumption vs. Temperature by Region_**
 Graph Type: Line graph or scatter plot
 X-Axis: Average monthly temperature (°F or °C)
 Y-Axis: Monthly electricity consumption (MWh)
