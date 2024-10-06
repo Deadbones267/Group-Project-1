@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 # Analyzing Energy Consumption, Cost Efficiency, and Resource Utilization in U.S. States Based on Weather and Climate Impacts
 >>>>>>> 204dfc0a23353c33a7cb5f571ac687e20b47555f
