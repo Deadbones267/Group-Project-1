@@ -26,7 +26,7 @@ Understanding the effectiveness and efficiency of various energy sources across 
 ## POSSIBLE DATA SOURCES:
 
 For Weather:
-  - OpenWeather API: https://openweathermap.org/api
+  - weather api : https://open-meteo.com/en/docs/historical-weather-api#start_date=2000-01-01&end_date=2009-12-31&hourly=temperature_2m,relative_humidity_2m,precipitation&location_mode=csv_coordinates&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch
 
 
 For Electricity:
