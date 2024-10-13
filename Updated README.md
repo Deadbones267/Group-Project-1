@@ -1,20 +1,54 @@
 # Analyzing Energy Consumption, Cost Efficiency, and Resource Utilization in U.S. States Based on Weather and Climate Impacts
 
-## PROJECT STATEMENT:
-Understanding the effectiveness and efficiency of various energy sources across different U.S. regions is crucial for optimizing energy policies and consumption patterns. Weather, climate, and regional supply and demand dynamics significantly influence energy costs and availability. The Energy Consumption Analysis Tool created for this project was designed to help consumers analyze energy consumption patterns, costs, and resource utilization across U.S. states and regions, with a particular focus on how weather and climate affect energy consumption and efficiency.
+## Project Statement
+Understanding the effectiveness and efficiency of various energy sources across different U.S. regions is crucial for optimizing energy policies and consumption patterns. Weather, climate, and regional supply and demand dynamics significantly influence energy costs and availability. The Geographical Energy Consumption Analysis Tool created for this project was designed to help consumers analyze energy consumption patterns, costs, and resource utilization across U.S. states and regions, with a particular focus on how weather and climate affect energy consumption and efficiency.
 
-The Energy Consumption Analysis Tool is an application designed to evaluate how weather patterns in various locations impact energy consumption. The application relies on historical energy data from [the U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/browser/) and historical weather data from [Open-Meteo] (https://open-meteo.com/en/docs/historical-weather-api).
+## The Geographical Energy Consumption Analysis Tool
+The Geographical Energy Consumption Analysis Tool is an application designed to evaluate how weather patterns in various locations impact energy consumption. The application relies on historical energy data from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/browser/) and historical weather data from [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api).
 
 ## Programming Language and Technology
-The Energy Consumption Analysis Tool is written in [Python](https://www.python.org/) using [Visual Studio Code](https://code.visualstudio.com/).
+The Energy Consumption Analysis Tool is written in [Python](https://www.python.org/) using [Visual Studio Code](https://code.visualstudio.com/) and the [JSON](https://www.json.org/json-en.html) data interchange format.
 
-Visualizations are provided through [Bokeh](https://bokeh.org/), [hvPlot](https://hvplot.holoviz.org/index.html), and Matplotlib
 
-Energy statistics and analysis information was retrieved from [EIA API]()
+Visualizations are provided through the use of [Bokeh](https://bokeh.org/), [hvPlot](https://hvplot.holoviz.org/index.html), [Matplotlib](https://matplotlib.org/), and [Prophet](https://pypi.org/project/prophet/).
 
-The [Pandas](https://pandas.pydata.org/) and [Numpy] (https://numpy.org/) libraries were used to work with the historical weather and energy data retrieved from the EIA and Open-Meteo APIs.
 
-## OBJECTIVES:
+Energy statistics and analysis information were retrieved from [EIA API](https://www.eia.gov/opendata/browser/) and weather information was retrieved from [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api).
+
+
+The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) libraries were used to work with the historical weather and energy data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/browser/)  and [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api) APIs.
+
+## Installation Guide
+
+The contents of the repository should be placed into the desired folder on the users computer, being sure to maintain the directory structure. 
+
+The application was developed using Python version #.#.##. Other versions of python may work, but no guarantee is made. We suggest usinig a new virtual environment with the correct version of python.
+
+The following python packages must be installed to run the application locally:
+* pandas
+* panel
+* bokeh
+* matplotlib
+* numpy
+* hvplot
+* jupyterlab (only if the .ipynb file is used. running the .py file does not require jupyterlab)
+
+These packages may be individually installed into the environment of your choice or you may create a new conda environment using the included environment.yml file. 
+
+```
+conda env create -f environment.yml
+```
+
+If you prefer using pip, the included requirements.txt file may be used to install the required packages.
+
+```
+pip install -r requirements.txt
+
+```
+
+## Objectives
+This project aims to identify the most and least cost-effective energy sources across U.S. regions by comparing costs based on supply, demand, and resource availability. It will analyze how weather patterns influence energy consumption, highlighting regions with higher energy use due to climate variability, and assess regional efficiency in using renewable versus non-renewable sources.
+
 1. **Cost-Effectiveness Analysis of Energy Sources**:
    - Identify the most and least cost-effective energy sources (e.g., natural gas, solar, wind, coal, nuclear) in different U.S. states or regions.
    - Compare energy costs across regions, taking into account supply, demand, and resource availability.
@@ -27,25 +61,22 @@ The [Pandas](https://pandas.pydata.org/) and [Numpy] (https://numpy.org/) librar
    - Evaluate which regions are using renewable vs. non-renewable energy sources more efficiently and at lower costs.
    - Provide insights into how weather/climate conditions should be factored into energy policies for each state or region.
 
-## RESEARCH QUESTIONS:
+## Initial Research Questions
   - How do weather and climate affect energy consumption in different U.S. states?
   - Which energy sources are the most cost-effective in regions with extreme weather (e.g., cold winters, hot summers)?
   - How does regional supply and demand influence the availability and price of different energy sources?
   - What role do renewable energy sources play in reducing energy costs and increasing efficiency, particularly in regions with favorable weather conditions (e.g., sunny, windy states)?
   - How do different energy policies across states impact energy costs and consumption patterns?
 
-## POSSIBLE DATA SOURCES:
+## Data Sources
 
 For Weather:
-  - Weather API: https://open-meteo.com/en/docs/historical-weather-api#start_date=2000-01-01&end_date=2009-12-31&hourly=temperature_2m,relative_humidity_2m,precipitation&location_mode=csv_coordinates&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch
+  - Weather API: [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api)
 
+For Energy:
+  - EIA Open Data API: [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/browser/) 
 
-For Electricity:
-  - EIA Open Data API: https://www.eia.gov/opendata/browser/
-  - Electricity Maps API: https://static.electricitymaps.com/api/docs/index.html
-
-
-## Visualization goals:
+## Visualization Goals
 
 **_1. Electricity Consumption vs. Temperature by Region_**
 
@@ -54,7 +85,6 @@ X-Axis: Average monthly temperature (°F or °C)
 Y-Axis: Monthly electricity consumption (MWh)
 Data: Plot this for different U.S. states or regions over a year to show how temperature changes affect electricity usage.
 Insights: This graph can reveal how temperature extremes (hot summers, cold winters) drive higher energy consumption, particularly for heating and cooling.
-
 
 **_2. Renewable Energy Generation vs. Wind Speed/Solar Radiation_**
 
@@ -65,7 +95,6 @@ Bubble Size/Color: Energy type (e.g., wind, solar)
 Data: Use hourly or daily data from regions with significant wind or solar generation.
 Insights: This graph highlights the efficiency of renewable energy production as a function of local weather conditions, showing the correlation between natural resources and energy output.
 
-
 **_3. Energy Cost vs. Climate Events (Heatwaves, Cold Snaps, Hurricanes)_**
 
 Graph Type: Bar graph or time series plot
@@ -75,7 +104,6 @@ Overlay: Mark specific extreme weather events (e.g., heatwaves, hurricanes) on t
 Data: Use cost data before, during, and after major climate events.
 Insights: This graph helps show how extreme weather events can cause spikes in energy costs due to increased demand or infrastructure damage.
 
-
 **_4. Carbon Emissions from Energy Sources vs. Average Annual Temperature_**
 
 Graph Type: Line or stacked bar graph
@@ -83,7 +111,6 @@ X-Axis: Average annual temperature (°F or °C)
 Y-Axis: Carbon emissions (metric tons CO₂)
 Data: Break down emissions by energy source (coal, natural gas, renewables) for each state or region.
 Insights: This can demonstrate how regions with higher temperatures or climate variability contribute to carbon emissions, and how the energy mix influences those emissions.
-
 
 **_5. Energy Production vs. Precipitation Levels_**
 
@@ -94,7 +121,6 @@ Y-Axis (Right): Monthly/annual precipitation levels (inches or mm)
 Data: Plot energy production in regions with significant hydropower plants, like the Pacific Northwest, alongside precipitation data.
 Insights: This graph could highlight how rainfall variability affects hydropower generation and how water resources impact energy availability.
 
-
 **_6. Energy Consumption Growth vs. Climate Change Indicators (Temperature Rise, CO₂ Levels)_**
 
 Graph Type: Line graph or area chart
@@ -103,3 +129,32 @@ Y-Axis (Left): Total energy consumption (MWh)
 Y-Axis (Right): Global CO₂ levels (ppm) or average global temperature anomaly (°C)
 Data: Use long-term data for global CO₂ levels, temperature rise, and U.S. or regional energy consumption.
 Insights: This graph visualizes the relationship between growing energy consumption and increasing climate change indicators, revealing how human energy use may be contributing to global warming.
+
+## Contributors
+
+## License
+
+License information can be found in the included LICENSE file.
+
+---
+## Credits
+* Risk Analysis Survey was compiled based upon a survey provided by [Lincoln Financial Group](https://bit.ly/3InwBMP)
+* Code for generating the Monte Carlo Simulation was modified from code provided by UC Berkeley Extension FinTech Bootcamp
+
+___
+## Future Work
+
+Future work and/or enhancements to this project include:
+* Implementing a more robust Risk Analysis Survey
+* Revamp model training and evaluation to find better performing options
+* Adding in features to allow a user to fine-tuning their portfolio
+* Improve visualizations
+* Enhance UI/UX
+* Add a blockchain contracts feature to onboard and sign-up the client
+
+___
+## Future Work
+
+Future work and/or recommended enhancements to this project include:
+* Implementing a
+
