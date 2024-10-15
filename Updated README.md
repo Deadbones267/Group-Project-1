@@ -22,21 +22,18 @@ The [Pandas](https://pandas.pydata.org/) and [Numpy](https://numpy.org/) librari
 
 The contents of the repository should be placed into the desired folder on the users computer, being sure to maintain the directory structure. 
 
-The application was developed using Python version #.#.##. Other versions of python may work, but no guarantee is made. We suggest usinig a new virtual environment with the correct version of python.
+The application was developed using Python version 3.12.4. Other versions of Python may work, but no guarantee is made. We suggest using a new virtual environment with the correct version of Python.
 
-The following python packages must be installed to run the application locally:
+The following Python packages must be installed to run the application locally:
 * pandas
-* panel
 * bokeh
 * matplotlib
 * numpy
 * hvplot
 * jupyterlab (only if the .ipynb file is used. running the .py file does not require jupyterlab)
 
-These packages may be individually installed into the environment of your choice or you may create a new conda environment using the included environment.yml file. 
+These packages may be individually installed into the environment of your choice. You will also need to obtain an API key for the EIA API and store it as eia in a file named local_keys.env. Alternatively, you may enter your EIA API key into the code manually, if desired.
 
-```
-conda env create -f environment.yml
 ```
 
 If you prefer using pip, the included requirements.txt file may be used to install the required packages.
@@ -141,5 +138,6 @@ Insights: This graph visualizes the relationship between growing energy consumpt
 ## Future Work
 
 Future work and/or recommended enhancements to this project include:
-* Implementing a regional model that allows users to view weather patterns and energy utilization trends by geographic region.
+* Implementing a regional model that allows users to view weather patterns and energy utilization trends by geographic region
+* Evaluating how various types of energy impact energy costs
 
