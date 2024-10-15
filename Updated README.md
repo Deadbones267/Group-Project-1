@@ -131,30 +131,15 @@ Data: Use long-term data for global CO₂ levels, temperature rise, and U.S. or 
 Insights: This graph visualizes the relationship between growing energy consumption and increasing climate change indicators, revealing how human energy use may be contributing to global warming.
 
 ## Contributors
-
-## License
-
-License information can be found in the included LICENSE file.
+* [Keri Alexander](https://github.com/kerialexander)
+* [JD](https://github.com/spidercousin)
+* [Ian Hale](https://github.com/hollidaydds)
+* [Reis Hymer](https://github.com/Doobles1989)
+* [Carson Jones](https://github.com/Deadbones267)
 
 ---
-## Credits
-* Risk Analysis Survey was compiled based upon a survey provided by [Lincoln Financial Group](https://bit.ly/3InwBMP)
-* Code for generating the Monte Carlo Simulation was modified from code provided by UC Berkeley Extension FinTech Bootcamp
-
-___
-## Future Work
-
-Future work and/or enhancements to this project include:
-* Implementing a more robust Risk Analysis Survey
-* Revamp model training and evaluation to find better performing options
-* Adding in features to allow a user to fine-tuning their portfolio
-* Improve visualizations
-* Enhance UI/UX
-* Add a blockchain contracts feature to onboard and sign-up the client
-
-___
 ## Future Work
 
 Future work and/or recommended enhancements to this project include:
-* Implementing a
+* Implementing a regional model that allows users to view weather patterns and energy utilization trends by geographic region.
 
