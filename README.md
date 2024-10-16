@@ -139,6 +139,9 @@ Y-Axis (Right): Global CO₂ levels (ppm) or average global temperature anomaly 
 Data: Use long-term data for global CO₂ levels, temperature rise, and U.S. or regional energy consumption.
 Insights: This graph visualizes the relationship between growing energy consumption and increasing climate change indicators, revealing how human energy use may be contributing to global warming.
 
+## Link to Presentation
+https://www.canva.com/design/DAGS7iinPiE/Ok38zvA45MSe5U-R4F1nHg/view?utm_content=DA[…]re_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+
 ## Contributors
 * [Keri Alexander](https://github.com/kerialexander)
 * [JD](https://github.com/spidercousin)
